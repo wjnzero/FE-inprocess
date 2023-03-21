@@ -40,7 +40,7 @@ function Login() {
                         </div>
                         <div className="form-button">
                             <input type="submit" className="submit-button" value="Đăng nhập"/>
-                            <span>Quên mật khẩu</span>
+                            <a href="google.com">Quên mật khẩu</a>
                         </div>
 
                     </form>

@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
 }
-.form-body span{
+.form-body a{
     color: #EF0032;
     font-size: 16px;
     font-family: Inter;
