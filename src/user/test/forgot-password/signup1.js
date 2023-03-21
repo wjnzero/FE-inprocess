@@ -1,6 +1,6 @@
-import './signup2.css';
-import banner from "../../img/banner.png";
-export default function SignUp2(props) {
+import './signup1.css';
+import banner from "../../../img/banner.png";
+export default function SignUp1(props) {
     return (
         <div className="signup-container">
             <img src={banner} className="banner" alt="banner"/>
@@ -9,7 +9,7 @@ export default function SignUp2(props) {
                 <div className="form-body">
                     <div className="subtitle-login">Nhập email đăng ký <span style={{color:'#EF0032'}}>*</span></div>
                     <form>
-                        <input type="email" className="input-mail" disabled="true" value="con cac"/>
+                        <input type="email" className="input-mail"/>
                         <input type="submit" className="submit-button" value="Gửi OTP"/>
                     </form>
                 </div>

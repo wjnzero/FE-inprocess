@@ -1,10 +1,11 @@
 .banner {
-    width: 700px;
+    width: 36.46%;
     min-height: 1080px;
     position: absolute;
     left: 0%;
     top: 0px;
     display: flex;
+    padding: 16px;
 }
 
 .content {
@@ -48,15 +49,18 @@
 
 .input-mail {
     width: 100%;
-    background: #F5F5F5;
+    background: white;
     border-color: rgba(208.25, 208.25, 208.25, 1);
     border-style: solid;
     border-width: 1px;
-    border-radius: 12px 12px 12px 0;
+    border-radius: 12px 12px 12px 0px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     min-height: 49px;
     margin-top: 13.5px;
 
-    color: #555555;
+    color: black;
     font-size: 16px;
     font-family: Inter, serif;
     font-weight: 400;

@@ -1,5 +1,5 @@
 import './signup1.css';
-import banner from "../../img/banner.png";
+import banner from "../../../img/banner.png";
 export default function SignUp1(props) {
     return (
         <div className="signup-container">
